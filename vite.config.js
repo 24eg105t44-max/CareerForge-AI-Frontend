@@ -1,4 +1,3 @@
-
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -6,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
 
   // Required for GitHub Pages repository deployment
-  base: '/CareerForge-AI-Frontend/',
+  base: '/CareerForge-AI/',
 
   server: {
     port: 5173,
