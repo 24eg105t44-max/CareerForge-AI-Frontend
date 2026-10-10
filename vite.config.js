@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
 
   // Required for GitHub Pages repository deployment
-  base: '/CareerForge-AI/',
+  base: '/CareerForge-AI-Frontend/',
 
   server: {
     port: 5173,
